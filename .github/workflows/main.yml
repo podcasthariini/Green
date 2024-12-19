@@ -2,7 +2,7 @@ name: Automated Commit
 
 on:
   schedule:
-    - cron: '0 */12 * * *'  
+    - cron: '*/6 * * * *'  
   workflow_dispatch:
 
 jobs:
@@ -15,8 +15,8 @@ jobs:
 
     - name: Set up Git
       run: |
-        git config --global user.email "xon3iros@gmail.com"
-        git config --global user.name "xONEIROS"
+        git config --global user.email "sinetronsctv48@gmail.com"
+        git config --global user.name "podcasthariini"
 
     - name: Select Random Sticker
       id: random_sticker
